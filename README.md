@@ -4,7 +4,10 @@ These are the nix files for my thonkpad
 
 ## TODO
 
-* [ ] add `/etc/nixos/*` and related files
+* [ ] configure close lid and power button settings
+* [ ] set tiling to only tile alacritty and firefox by default
+* [ ] configure swaybar
+* [ ] add `/etc/nixos/*`
 * [ ] merge with macOS and cloud server config
 
 ## Nix docs
