@@ -21,26 +21,31 @@ in {
     gcc
     gnumake
 
+    pavucontrol
+
     swaylock
     swayidle
     wl-clipboard
     mako
     alacritty
     wofi
-    pavucontrol
-
     wev
 
     dig
 
-    rbw
     pinentry-curses
 
     xdg-utils
 
     zoom-us
     firefox-wayland
+
+    # fonts
+    liberation_ttf
+    (nerdfonts.override { fonts = [ "Go-Mono" ]; })
   ];
+
+  fonts.fontconfig.enable = true;
 
   nixpkgs.config.allowUnfree = true;
 
